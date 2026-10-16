@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌主色（与网页一致） -->
+    <color name="brand_blue">#4F7CFF</color>
+    <color name="brand_blue_bright">#8FB2FF</color>
+    <color name="window_background">#FFF7F9FE</color>
+</resources>

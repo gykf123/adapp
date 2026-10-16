@@ -1,0 +1,16 @@
+# Gradle / Android 标准忽略模板
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+# 例外：仓库根 apk/ 目录下随仓库分发的 Debug APK 需要提交
+!apk/*.apk
