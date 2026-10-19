@@ -107,7 +107,9 @@ sdk.dir=/root/android-sdk
 
 ## APK 获取
 
-- 本仓库 `apk/FeSui-adapp-debug.apk` 为随仓库分发的 Debug 包，可直接下载安装（debug 签名，包名 `gay.fesui.adapp.debug`）；
+- **CI 自动构建（推荐）**：每次推送 `main` 后，GitHub Actions 自动编 Debug APK。打开仓库 **Actions → Build APK → 最新一次运行 → 页面底部 Artifacts**，下载 `FeSui-adapp-apk-<commit>`（保留 30 天）；
+- 仓库内 `apk/FeSui-adapp-debug.apk` 为随仓库分发的 Debug 包，也可直接下载安装（debug 签名，包名 `gay.fesui.adapp.debug`）；
+- 打 `v*` 标签（如 `v1.0.0`）会额外生成 GitHub Release 并附上 APK；
 - 也可以自行构建（见上文）。
 
 ## 说明
